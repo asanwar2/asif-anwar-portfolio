@@ -21,7 +21,7 @@ This repository showcases selected projects, research, and coursework from my un
  #### **Intro to Scientific Visualization**
  - Code
  - Paper
- ####**Neural Networks in Engineering**
+ #### **Neural Networks in Engineering**
  - Code
  - Paper
 
