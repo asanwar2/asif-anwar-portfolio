@@ -17,7 +17,7 @@ This repository showcases selected projects, research, and coursework from my un
 - paper
   
 
-### 📚 Graduate Coursework
+### Graduate Coursework
  #### **Intro to Scientific Visualization**
  - Code
  - Paper
@@ -26,12 +26,12 @@ This repository showcases selected projects, research, and coursework from my un
  - Paper
 
 
-## 🛠️ Tools & Skills
+## Tools & Skills
 - Python, MATLAB, R, C#
 - Data visualization and simulation analysis
 - Technical writing, teaching, and collaborative lab instruction
 
-## 📌 About Me
+## About Me
 I’m a graduate student at Purdue University with a strong interest in the intersection of nuclear engineering, data-driven modeling, and real-world reactor applications.
 
 ---
