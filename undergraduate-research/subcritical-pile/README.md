@@ -3,7 +3,7 @@
 This project involved modeling and characterizing the behavior of the Purdue University subcritical pile
 
 ## Project Overview
-- Investigated neutron multiplication in a subcritical assembly
+- Investigated neutron multiplication in the Purdue subcritical assembly
 - Analyzed the influence of source strength, material configuration, and moderation
 - Prepared a technical report summarizing experimental setup and theoretical models
 
