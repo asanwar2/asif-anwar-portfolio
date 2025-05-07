@@ -6,13 +6,13 @@ This project, completed for the Intro to Scientific Visualization graduate cours
 ## Objective
 To create accurate and engaging visual models of thermal, epithermal, and fast neutron flux within the reactor core, based on detailed MCNP simulations.
 
-## 🧰 Tools & Methods
-- MCNP6 (data source)
+## Tools & Methods
+- MCNP6
 - Python
   - 3D visualizations for spatial flux distribution
 - Cutaway and volume views to show internal flux gradients
 
-## 📁 Contents
+## Contents
 - `neutron-flux-visualization_PUR1.docx`: Final report summarizing goals, MCNP setup, visualization methods, and educational outcomes
 - 'codes': Python codes for each energy region and cutaway chunks 
 
