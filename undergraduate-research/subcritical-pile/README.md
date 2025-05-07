@@ -8,6 +8,6 @@ This project involved modeling and characterizing the behavior of the Purdue Uni
 - Prepared a technical report summarizing experimental setup and theoretical models
 
 ## Folder Contents
-- `data/`: Raw or processed data used in the project
-- `preprint.pdf`: Final paper 
+- `data`: Raw or processed data used in the project
+- `preprint`: Final paper 
 
