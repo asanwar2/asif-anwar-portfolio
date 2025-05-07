@@ -6,7 +6,7 @@ This project was completed as the final assignment for NUCL 575. It explores the
 ## Objective
 To develop and compare multiple neural network architectures for classifying mushroom images using a dataset of four distinct genera: Amanita, Boletus, Cantharellus, and Morchella.
 
-## 🛠Methods
+## Methods
 - **Custom CNN** built in MATLAB using ReLU, max-pooling, and fully connected layers
 - **Transfer learning with ResNet-18**, modified for the classification task
 - **Sequential model in Python** using Keras for cross-toolset experimentation
