@@ -15,7 +15,7 @@ To develop and compare multiple neural network architectures for classifying mus
 - codes:
 - `NUCL575-mushroom-classification.pdf`: Final report with methodology, results, and discussion
 
-## 📈 Results
+## Results
 - ResNet-18 model achieved 100% validation accuracy in 10 epochs
 - Custom CNN achieved ~94% accuracy
 - Python model achieved ~93.8% accuracy
