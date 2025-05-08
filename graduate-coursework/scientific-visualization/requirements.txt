@@ -1,0 +1,6 @@
+numpy==1.24.0
+matplotlib==3.7.1
+pandas==1.5.3
+pyvista==0.39.0         # optional, for 3D isosurface/volume rendering
+vtk==9.2.6              # required for PyVista
+jupyterlab==3.6.1       # optional, for notebook-based visualization
