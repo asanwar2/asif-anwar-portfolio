@@ -22,6 +22,6 @@ The script will:
 No external data files are required — everything is internally generated.
 
 Customization Options
-Energy Range: Adjust E_min and E_max variables
-Detector Resolution: Modify FWHM or sigma settings
-Peak Position/Width: Customize to match different isotopes
+- Energy Range: Adjust E_min and E_max variables
+- Detector Resolution: Modify FWHM or sigma settings
+- Peak Position/Width: Customize to match different isotopes
