@@ -4,9 +4,12 @@
 - Model spectrum shape with basic statistical noise and resolution
 
 This script:
-- Generates a synthetic Cs-137 energy spectrum
+- Generates a benchmark gamma-ray energy spectrum for Cs-137 
 - Adds Gaussian broadening to simulate detector resolution
 - Plots the resulting spectrum with labels for photopeak and Compton edge
+- Simulate energy resolution and detector response
+- Serve as a reference for validating simulations or other virtual spectra
+
 
 ## How to Run (MATLAB)
 
@@ -15,10 +18,19 @@ This script:
 ```matlab
 run('cs_spectrum.m')
 ```
+
 The script will:
 - Generate an energy array (e.g., 0–1000 keV)
-- Simulate counts with a peak at 662 keV
 - Display a labeled spectrum plot
+- A Gaussian-shaped photopeak centered at 662 keV
+- Optional statistical noise
+- Features like Compton edge
+
+---
+
+## 🔢 Sample Output (Plot)
+
+> **Photopeak** at ~662 keV  
 No external data files are required — everything is internally generated.
 
 Customization Options
