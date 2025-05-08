@@ -28,9 +28,6 @@ The script will:
 
 ---
 
-## 🔢 Sample Output (Plot)
-
-> **Photopeak** at ~662 keV  
 No external data files are required — everything is internally generated.
 
 Customization Options
