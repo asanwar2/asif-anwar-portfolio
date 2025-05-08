@@ -55,8 +55,8 @@ lgraph = connectLayers(lgraph, 'pool5', 'new_fc');
 
 ```
 Example Training Output (10 Epochs – ResNet-18)
-Validation Accuracy: 100%
-Training Loss: Rapid convergence after epoch 3
+- Validation Accuracy: 100%
+- Training Loss: Rapid convergence after epoch 3
 Confusion Matrix:
 |                        | Pred: Amanita | Pred: Boletus | Pred: Cantharellus | Pred: Morchella |
 | ---------------------- | ------------- | ------------- | ------------------ | --------------- |
