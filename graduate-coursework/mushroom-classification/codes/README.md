@@ -6,6 +6,18 @@ This folder contains MATLAB scripts used for image classification of mushrooms u
 
 This work was part of the NUCL 575 graduate course and focused on comparing the performance of a custom CNN and a ResNet-18 model when trained on a dataset of four mushroom genera: **Amanita**, **Boletus**, **Cantharellus**, and **Morchella**.
 
+## Dataset Structure
+
+Download the dataset (from Kaggle) and organize it as:
+/data/
+/train/
+/amanita/
+/boletus/
+/cantharellus/
+/morchella/
+/test/
+/amanita/
+
 ## File Index
 
 | File Name                             | Description                                  |
@@ -77,6 +89,10 @@ imds = imageDatastore('data/', ...
     'LabelSource','foldernames');
 run('mushroom_classification_resnet_10.m')
 ```
+MATLAB will:
+- Load pre-trained ResNet-18
+- Replace the final layer with 4 output classes
+- Train on your dataset for 10 epochs
 
 Performance Summary
 | Model      | Epochs | Accuracy |
@@ -101,4 +117,7 @@ Future Improvements
 - MATLAB R2024b+
 - Deep Learning Toolbox
 - `imageDatastore`, `trainNetwork`, `analyzeNetwork`, `resnet18`
+
+## Why It Matters
+This project showcases a full model development pipeline, blending computer vision and deep learning in a nuclear engineering course. The structure, metrics, and reproducibility make it ready for real-world applications and portfolio presentation.
 
