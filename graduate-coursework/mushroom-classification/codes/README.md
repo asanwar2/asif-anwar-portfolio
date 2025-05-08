@@ -54,9 +54,8 @@ lgraph = addLayers(lgraph, newLayers);
 lgraph = connectLayers(lgraph, 'pool5', 'new_fc');
 
 ```
+
 Example Training Output (10 Epochs – ResNet-18)
-- Validation Accuracy: 100%
-- Training Loss: Rapid convergence after epoch 3
 Confusion Matrix:
 |                        | Pred: Amanita | Pred: Boletus | Pred: Cantharellus | Pred: Morchella |
 | ---------------------- | ------------- | ------------- | ------------------ | --------------- |
@@ -64,6 +63,9 @@ Confusion Matrix:
 | **True: Boletus**      | 0             | ✅ 20          | 0                  | 0               |
 | **True: Cantharellus** | 0             | 0             | ✅ 20               | 0               |
 | **True: Morchella**    | 0             | 0             | 0                  | ✅ 20            |
+
+- Validation Accuracy: 100%
+- Training Loss: Rapid convergence after epoch 3
 
 How to Run (ResNet Model)
 Open any of the ResNet scripts (e.g., mushroom_classification_resnet_10.m) in MATLAB.
