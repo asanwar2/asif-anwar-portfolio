@@ -69,10 +69,12 @@ How to Run (ResNet Model)
 Open any of the ResNet scripts (e.g., mushroom_classification_resnet_10.m) in MATLAB.
 
 Make sure the dataset path is correct:
+```
 imds = imageDatastore('data/', ...
     'IncludeSubfolders',true, ...
     'LabelSource','foldernames');
 run('mushroom_classification_resnet_10.m')
+```
 
 Performance Summary
 | Model      | Epochs | Accuracy |
