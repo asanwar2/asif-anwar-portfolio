@@ -8,15 +8,7 @@ This work was part of the NUCL 575 graduate course and focused on comparing the 
 
 ## Dataset Structure
 
-Download the dataset (from Kaggle) and organize it as:
-/data/
-/train/
-/amanita/
-/boletus/
-/cantharellus/
-/morchella/
-/test/
-/amanita/
+Download the dataset (from Kaggle): https://www.kaggle.com/datasets/viktormodroczky/mushroom-dataset-4-classes
 
 ## File Index
 
