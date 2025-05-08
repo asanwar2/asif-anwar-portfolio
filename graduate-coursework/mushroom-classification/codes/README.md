@@ -53,6 +53,7 @@ newLayers = [
 lgraph = addLayers(lgraph, newLayers);
 lgraph = connectLayers(lgraph, 'pool5', 'new_fc');
 
+```
 Example Training Output (10 Epochs – ResNet-18)
 Validation Accuracy: 100%
 Training Loss: Rapid convergence after epoch 3
