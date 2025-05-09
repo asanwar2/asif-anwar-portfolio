@@ -8,6 +8,7 @@ This project involved modeling and characterizing the behavior of the Purdue Uni
 - Prepared a technical report summarizing experimental setup and theoretical models
 
 ## Folder Contents
+- `codes`: MATLAB codes that generate heatmaps
 - `data`: Raw or processed data used in the project
 - `paper`: Final paper 
 
