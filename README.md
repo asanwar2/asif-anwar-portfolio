@@ -27,7 +27,7 @@ This repository showcases selected projects, research, and coursework from my un
 
 
 ## Tools & Skills
-- Python, MATLAB, C#
+- Python, MATLAB, C#, R
 - Data visualization and simulation analysis
 - Technical writing, teaching, and collaborative lab instruction
 
