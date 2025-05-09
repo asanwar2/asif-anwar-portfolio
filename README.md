@@ -6,7 +6,7 @@ This repository showcases selected projects, research, and coursework from my un
 
 ### Undergraduate Research
 - Virtual lab
-  - codes
+  - code
   - paper
 - Subcritical pile
   - data
@@ -19,15 +19,15 @@ This repository showcases selected projects, research, and coursework from my un
 
 ### Graduate Coursework
  #### **Intro to Scientific Visualization**
- - Code
- - Paper
+ - code
+ - paper
  #### **Neural Networks in Engineering**
- - Code
- - Paper
+ - code
+ - paper
 
 
 ## Tools & Skills
-- Python, MATLAB, R, C#
+- Python, MATLAB, C#
 - Data visualization and simulation analysis
 - Technical writing, teaching, and collaborative lab instruction
 

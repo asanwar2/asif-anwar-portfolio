@@ -1,5 +1,5 @@
-trainFolder = 'C:\Users\asanw\Downloads\archive\dataset_augmented_vgg\train';
-testFolder = 'C:\Users\asanw\Downloads\archive\dataset_augmented_vgg\test';
+trainFolder = 'dataset_augmented_vgg\train';
+testFolder = 'dataset_augmented_vgg\test';
 
 
 % Create image datastores for training and testing

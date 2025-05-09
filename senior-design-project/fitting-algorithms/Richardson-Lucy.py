@@ -4,7 +4,7 @@ from scipy.signal import find_peaks
 from scipy.signal import deconvolve
 
 # Load data from txt file
-data = np.loadtxt('ApolloCo60.txt', delimiter='\t')
+data = np.loadtxt('../data/ApolloCo60.txt', delimiter='\t')
 
 # Extract energy column
 energy = data[:, 1]

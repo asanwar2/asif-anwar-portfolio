@@ -1,9 +1,9 @@
 % Define directories
-%trainFolder = fullfile('C:\Users\asanw\Downloads\archive\dataset_augmented_vgg\train', 'train');
-%testFolder = fullfile('C:\Users\asanw\Downloads\archive\dataset_augmented_vgg\test', 'test');
+%trainFolder = fullfile('dataset_augmented_vgg\train', 'train');
+%testFolder = fullfile('dataset_augmented_vgg\test', 'test');
 
-trainFolder = 'C:\Users\asanw\Downloads\archive\dataset_augmented_vgg\train';
-testFolder = 'C:\Users\asanw\Downloads\archive\dataset_augmented_vgg\test';
+trainFolder = 'dataset_augmented_vgg\train';
+testFolder = 'dataset_augmented_vgg\test';
 
 
 % Create image datastores for training and testing
