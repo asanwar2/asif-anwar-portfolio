@@ -9,6 +9,7 @@ This project was developed as part of my undergraduate research where I designed
 - Provide an accessible, simulation-based alternative to hands-on reactor experiments
 - Offer simplified, interactive tools for spectrum generation and interpretation
 - Enable students to visualize phenomena like thermal feedback and delayed neutron behavior
+- Paper available at American Nuclear Society Transactions | Volume 126 | Number 1 | June 2022 | Pages 45-48
 
 ---
 
