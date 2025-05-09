@@ -1,3 +1,25 @@
+# Virtual Lab for Nuclear Engineering Education
+
+This project was developed as part of my undergraduate research where I designed MATLAB-based virtual laboratory environment that helps students understand key nuclear engineering concepts through simulation and visualization. It serves both as a teaching tool and a simulation benchmark.
+
+---
+
+## Project Objectives
+
+- Provide an accessible, simulation-based alternative to hands-on reactor experiments
+- Offer simplified, interactive tools for spectrum generation and interpretation
+- Enable students to visualize phenomena like thermal feedback and delayed neutron behavior
+
+---
+
+## Project Structure
+
+| Folder/File                  | Description                                                  |
+|-----------------------------|--------------------------------------------------------------|
+| `codes`                   | Contains simulation and visualization code                   |
+| `paper`                 | Final research paper outlining objectives, implementation, and educational impact |
+| `cs_spectrum.m`             | MATLAB benchmark spectrum generator for Cs-137               |
+
 ## Purpose
 
 - Demonstrate gamma emission energy signatures from Cs-137
