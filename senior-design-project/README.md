@@ -12,6 +12,8 @@ This senior design project, sponsored by H3D Gamma Inc., focused on designing an
 - `fitting-algorithms/`: Python scripts used for spectrum processing and isotope prediction
 - `radioisotope-identification_H3D.pdf`: Final design report documenting methodology, simulation setup, ML models, and results
 
+> ⚠️ Note: The original version of this script was used to analyze MCNP output. Due to export control concerns, this version uses synthetic input and is intended for educational demonstration only.
+
 
 ## Tools & Technologies
 - **MCNP** for gamma-ray transport and detector modeling
