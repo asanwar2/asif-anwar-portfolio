@@ -32,7 +32,7 @@ This repository showcases selected projects, research, and coursework from my un
 - Technical writing, teaching, and collaborative lab instruction
 
 ## About Me
-I’m a graduate student at Purdue University with a strong interest in the intersection of nuclear engineering, data-driven modeling, and real-world reactor applications.
+I’m a graduate student at Purdue University with a strong interest in the intersection of nuclear engineering, data-driven modeling, and real-world applications.
 
 ---
 
