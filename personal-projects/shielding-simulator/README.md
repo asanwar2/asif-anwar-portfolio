@@ -15,10 +15,10 @@ This project was completed for **CS 501**. It implements a **from-scratch Monte 
 
 ## Methods
 - **Transport kernel:**  
-  - Sample free path \(s=-\ln\xi/\Sigma_t\)  
-  - Interaction = absorption (prob. \(\Sigma_a/\Sigma_t\)) or scatter (isotropic in 2D with toy energy loss)  
+  - Sample free path  
+  - Interaction = absorption or scatter (isotropic in 2D with toy energy loss)  
 - **Tallies:** 2D dose grid (x–y), 1D depth–dose (sum over y), transmission/reflection/absorption counts  
-- **Validation:** Pure-absorption case vs. **Beer–Lambert** \(T=\exp(-\Sigma_t L)\)  
+- **Validation:** Pure-absorption case vs. **Beer–Lambert**  
 - **Uncertainty:** Replicate batches → **mean ± standard error** of transmission  
 - **Auto-save & non-blocking plots:** All figures save to `./figs/` and appear **at once**
 
@@ -71,30 +71,30 @@ MATERIALS["lead"] = Material("Lead", sigma_t=1.0, sigma_a=0.3)  # try your own
 Example Usage
 
 Run only the single-material demo at higher statistics:
-
+```
 mat = MATERIALS["concrete"]
 res = run_mc(mat, n_hist=100_000)
 visualize(res, title_suffix="(N=100k)", save_dir="figs")
 plt.show()
-
+```
 
 Compare materials with a thicker slab:
-
+```
 compare_materials(thickness_cm=20.0, save_dir="figs")
 plt.show()
-
+```
 
 Transmission with uncertainty (more reps, fewer histories each):
-
+```
 compare_materials_with_uncertainty(thickness_cm=10.0, n_hist=3000, n_reps=20, save_dir="figs")
 plt.show()
-
+```
 
 Beer–Lambert validation with more data points:
-
+```
 validate_beer_lambert(thickness_list=(2,4,6,8,10,12), n_hist=10000, save_dir="figs")
 plt.show()
-
+```
 ## Outputs (Figures)
 - **Sample Trajectories** — visual intuition for absorption vs scattering vs leakage
 - **Depth–Dose** — how dose changes with depth into the slab
