@@ -25,7 +25,7 @@ This repository showcases selected projects, research, and coursework from my un
  - paper
 
 
-### Graduate Coursework
+### Personal Projects
   #### **Shielding Simulator**
    - code
    #### **Real-time Reactor Dashboard**
