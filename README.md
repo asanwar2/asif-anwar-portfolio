@@ -16,7 +16,6 @@ This repository showcases selected projects, research, and coursework from my un
 - fitting algorithms
 - paper
   
-
 ### Graduate Coursework
  #### **Intro to Scientific Visualization**
  - code
@@ -25,6 +24,12 @@ This repository showcases selected projects, research, and coursework from my un
  - code
  - paper
 
+
+### Graduate Coursework
+  #### **Shielding Simulator**
+   - code
+   #### **Real-time Reactor Dashboard**
+   - code
 
 ## Tools & Skills
 - Python, MATLAB, C#, R
