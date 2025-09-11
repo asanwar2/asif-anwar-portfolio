@@ -1,6 +1,6 @@
 # Monte Carlo Radiation Shielding Simulator (Python)
 
-This project was completed for **CS 501**. It implements a **from-scratch Monte Carlo transport** simulator to study photon attenuation and dose build-up in shielding materials (lead, concrete, water, polyethylene). The work deepened my understanding of stochastic simulation, statistical tallies, and scientific visualization, and it provides **paper-ready** figures plus a simple **validation** against the Beer–Lambert law.
+This project implements a **Monte Carlo transport** simulator to study photon attenuation and dose build-up in shielding materials (lead, concrete, water, polyethylene). The work deepened my understanding of stochastic simulation, statistical tallies, and scientific visualization,
 
 ---
 
