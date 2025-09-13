@@ -1,6 +1,6 @@
 # Visualization of Neutron Flux Distribution in the PUR-1 Reactor
 
-This project, completed for the Intro to Scientific Visualization graduate course, focused on transforming high-volume MCNP output data into visualizations of neutron flux distributions in the PUR-1 research reactor. The project aimed to bridge the gap between raw simulation output and intuitive understanding, making nuclear data accessible to both students and operators.
+This project, completed for the CS530 - Intro to Scientific Visualization graduate course, focused on transforming high-volume MCNP output data into visualizations of neutron flux distributions in the PUR-1 research reactor. The project aimed to bridge the gap between raw simulation output and intuitive understanding, making nuclear data accessible to both students and operators.
 
 # Neutron Flux Visualization Scripts – PUR-1 Reactor
 
