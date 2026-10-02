@@ -38,7 +38,7 @@ result was drawn from the model:
 | Bundle heavy-metal mass | 19.06 kg | ~19.1 kg (CANDU-6) |
 | Natural-U void reactivity | +14.78 mk | positive, right magnitude |
 
-The heavy-metal mass was not fitted — it falls out of the modeled dimensions
+The heavy-metal mass was not fitted, it falls out of the modeled dimensions
 and densities. Geometry also passed OpenMC's cell-overlap checker and visual
 inspection of a material-colored plot.
 
@@ -54,7 +54,7 @@ inspection of a material-colored plot.
 | `REPORT.md` | Full write-up: methodology, data, discussion, limitations |
 | `00_SETUP_WALKTHROUGH.md` | Environment setup from scratch |
 
-`bundle_model.py` is a module, not a script — scripts 03 and 04 import it.
+`bundle_model.py` is a module; scripts 03 and 04 import it.
 
 ## Running it
 
