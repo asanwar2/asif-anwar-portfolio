@@ -66,7 +66,7 @@ python 01_pincell.py
 ```
 
 Cross-section data and the depletion chain are not in this repository.
-Download both from <https://openmc.org/data/> — ENDF/B-VIII.0 under Official
+Download both from <https://openmc.org/data/> - ENDF/B-VIII.0 under Official
 Data Libraries, and the thermal-spectrum chain under Depletion Chains.
 
 Runtimes on a consumer laptop: seconds for the pin cell, minutes for the fresh
@@ -75,7 +75,7 @@ bundle, ~40 minutes for the void study, several hours for depletion.
 ## Scope and limitations
 
 The fuel composition is a stand-in constructed from open literature on
-thoria-urania PHWR fuel — 90 wt% ThO₂ with 10 wt% UO₂ at 19.75% enrichment.
+thoria-urania PHWR fuel: 90 wt% ThO₂ with 10 wt% UO₂ at 19.75% enrichment.
 It is not any proprietary commercial composition, and no claim about a specific
 commercial fuel follows from these results.
 
