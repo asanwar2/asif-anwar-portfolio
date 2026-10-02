@@ -24,9 +24,9 @@ depletion to 59.9 MWd/kgHM showed k∞ crossing unity near 18.5 MWd/kgHM against
 roughly 7.5 MWd/kgHM for natural-uranium CANDU fuel, with the reactivity loss
 rate flattening from −7.0 to −1.8 mk per MWd/kgHM as U-233 bred in.
 
-The model reproduced four independently known quantities — natural-uranium
+The model reproduced four independently known quantities, natural-uranium
 CANDU lattice k∞, xenon equilibrium reactivity worth, CANDU bundle heavy-metal
-mass, and the sign and magnitude of natural-uranium void reactivity — before
+mass, and the sign and magnitude of natural-uranium void reactivity, before
 any comparative result was drawn from it.
 
 ---
@@ -41,8 +41,8 @@ rather than fissile: it cannot sustain a chain reaction alone, but on capturing
 a neutron it becomes Th-233, which beta-decays through Pa-233 (27-day
 half-life) to U-233.
 
-U-233 is an attractive thermal fissile isotope. Its reproduction factor η — the
-number of fission neutrons released per neutron absorbed — is higher than that
+U-233 is an attractive thermal fissile isotope. Its reproduction factor η - the
+number of fission neutrons released per neutron absorbed - is higher than that
 of either U-235 or Pu-239 across most of the thermal energy range, and it stays
 comparatively flat with energy. A thorium fuel cycle therefore consumes a
 fertile isotope and produces a superior fissile one in place.
@@ -51,7 +51,7 @@ The offsetting cost is up front. Th-232's thermal absorption cross section is
 about 7.4 barns against U-238's 2.7 barns. Substituting thorium for uranium as
 the fertile component means the lattice absorbs neutrons harder from the first
 day, and that penalty must be paid for with enrichment before any breeding
-benefit is realized. This trade — pay early, collect late — is the central
+benefit is realized. This trade of paying early, collecting late, is the central
 economic and neutronic question of any thorium fuel design, and it is the
 question this study is built around.
 
@@ -59,7 +59,7 @@ question this study is built around.
 
 Heavy water reactors are unusually well suited to thorium. Deuterium's
 absorption cross section is roughly two orders of magnitude below that of
-ordinary hydrogen, so a D₂O-moderated lattice has neutrons to spare — enough
+ordinary hydrogen, so a D₂O-moderated lattice has neutrons to spare, enough
 economy to sustain a chain reaction on natural uranium at 0.711% enrichment,
 which no light water lattice can do. That surplus is precisely what a thorium
 cycle needs to absorb the Th-232 penalty.
@@ -81,8 +81,7 @@ directions emerge from first-principles transport calculation.
 ### 1.3 The coolant void problem
 
 CANDU reactors have a positive coolant void reactivity coefficient. Loss of
-coolant from a fuel channel *increases* reactivity rather than decreasing it —
-the opposite of the behavior in a light water reactor, and a long-standing
+coolant from a fuel channel *increases* reactivity rather than decreasing it, which is the opposite of the behavior in a light water reactor, and a long-standing
 focus of CANDU safety analysis.
 
 The mechanism is spectral. In a CANDU lattice the coolant and the moderator are
@@ -139,7 +138,7 @@ entire study is reproducible by anyone without a license.
 
 Temperature interpolation warrants a note. The ENDF/B-VIII.0 library tabulates
 cross sections at 250, 294, 600, 900, 1200 and 2500 K. Several model
-temperatures — notably the 561 K coolant and 342 K moderator — fall between
+temperatures, notably the 561 K coolant and 342 K moderator, fall between
 tabulated points. OpenMC's default nearest-point method rejects gaps beyond
 about 10 K rather than silently substituting inappropriate data. Interpolation
 was selected as the more physically defensible option; nearest-neighbor
@@ -179,7 +178,7 @@ reflective boundaries on all four sides, giving k-infinity with zero leakage.
 1. An assertion confirmed 37 pin positions were generated.
 2. A material-colored plot was rendered and inspected. All seven material
    regions were visually distinct and correctly ordered from the center
-   outward, with the coolant and moderator clearly differentiated — the
+   outward, with the coolant and moderator clearly differentiated, the
    physical separation that defines PHWR neutronics.
 3. `openmc.run(geometry_debug=True)` reported zero cells with insufficient
    overlap checks, confirming no CSG regions intersect.
@@ -187,9 +186,7 @@ reflective boundaries on all four sides, giving k-infinity with zero leakage.
 **Dimensional verification.** The modeled fuel volume of 2,157.8 cm³ at a
 mixture density of 10.048 g/cm³ and heavy-metal mass fraction of 0.879 gives
 19.06 kg of heavy metal per bundle. A real CANDU-6 bundle contains
-approximately 19.1 kg. This agreement was not fitted; it emerges from the
-dimensions and densities independently and is strong evidence the geometry is
-dimensionally correct.
+approximately 19.1 kg. This agreement emerges from the dimensions and densities independently and is strong evidence the geometry is dimensionally correct.
 
 ### 3.3 Materials
 
@@ -212,9 +209,7 @@ thorium-HALEU fuel.
 | Annulus gas | CO₂ | 0.0014 | 450 |
 | Calandria tube | Zircaloy-2 | 6.55 | 400 |
 
-The coolant/moderator density and temperature difference is not a modeling
-detail — it is the defining feature of the lattice and drives the void
-reactivity result in Section 4.3.
+The coolant/moderator density and temperature difference is the defining feature of the lattice and drives the void reactivity result in Section 4.3.
 
 ### 3.4 Simulation parameters
 
@@ -234,13 +229,13 @@ source convergence.
 ### 3.5 Depletion setup
 
 Depletion was driven at 25 W per gram of heavy metal, corresponding to 476 kW
-per bundle — within the normal CANDU bundle power range. Fourteen burnup steps
+per bundle, within the normal CANDU bundle power range. Fourteen burnup steps
 were used, fine early (0.1 MWd/kgHM) to resolve xenon and samarium equilibrium
 and coarse later (10 MWd/kgHM), reaching 59.9 MWd/kgHM total.
 
 The integrator reported a total irradiation time of 2.070 × 10⁸ seconds, or
 2,396 days. Computed independently from 59.9 MWd/kgHM × 19.059 kgHM ÷ 476.5 kW,
-the expected value is 2,396 days — exact agreement, confirming the power
+the expected value is 2,396 days, exact agreement, confirming the power
 normalization and heavy-metal mass are mutually consistent.
 
 All 37 elements share a single fuel material, so depletion is bundle-averaged
@@ -275,7 +270,7 @@ deviations.
 
 Two features are worth drawing out.
 
-**The asymmetry is the point.** Under-moderation is punishing — going from
+**The asymmetry is the point.** Under-moderation is punishing, going from
 16 cm down to 1.6 cm costs more than 0.86 in k∞. Over-moderation is nearly
 free: 16 cm to 30 cm costs only 0.046, about 45 mk in reactivity. In a light
 water lattice, over-moderation would be penalized far more heavily, because
@@ -321,7 +316,7 @@ not.
 
 ### 4.3 Coolant void reactivity
 
-Coolant density was reduced from 0.807 g/cm³ to 10⁻⁴ g/cm³ — effectively
+Coolant density was reduced from 0.807 g/cm³ to 10⁻⁴ g/cm³, effectively
 voided, though not identically zero, which avoids numerical difficulty.
 Reactivity is ρ = (k−1)/k, and CVR = ρ(voided) − ρ(nominal).
 
@@ -333,7 +328,7 @@ Reactivity is ρ = (k−1)/k, and CVR = ρ(voided) − ρ(nominal).
 **Difference: 3.88 ± 0.51 mk — a 26 ± 3% reduction, significant at 7.6σ.**
 
 **Validation.** Two checks passed. The natural-uranium nominal case gave
-1.13235 against 1.13138 from the independent Section 4.2 run — a 1.3σ
+1.13235 against 1.13138 from the independent Section 4.2 run, a 1.3σ
 difference, consistent with Monte Carlo noise between different random seeds.
 And +14.78 mk for fresh natural-uranium CANDU fuel is both positive, as the
 literature requires, and of the expected magnitude. Reported leakage fraction
@@ -401,7 +396,7 @@ end of the curve, production and consumption are approaching balance and the
 reactivity decline has slowed nearly fourfold.
 
 **Discharge burnup.** 18.5 MWd/kgHM against approximately 7.5 MWd/kgHM for
-natural-uranium CANDU — a factor of about 2.5.
+natural-uranium CANDU, a factor of about 2.5.
 
 ---
 
@@ -420,7 +415,7 @@ alone.
 
 The burnup gain is approximately proportional to the fissile investment. This
 is the honest framing, and it is the one most likely to be probed: **most of
-the higher burnup demonstrated here is bought with enrichment, not conjured by
+the higher burnup demonstrated here is bought with enrichment and not conjured by
 thorium.** A straightforward LEU-in-CANDU case at matched fissile content would
 likely achieve comparable or greater burnup, because it would not pay the
 Th-232 absorption penalty.
@@ -434,8 +429,8 @@ highest-priority extension of this work.
 ### 5.2 On the coolant void result
 
 Of the results here, this is the most defensible and the most useful. It is a
-controlled comparison — identical geometry, identical code path, identical
-statistical treatment, one variable changed — with a 7.6σ separation and a
+controlled comparison with identical geometry, identical code path, identical
+statistical treatment, and one variable changed, with a 7.6σ separation and a
 validated reference case. It does not depend on the depletion chain, on the
 power normalization, or on the burnup schedule.
 
@@ -470,7 +465,7 @@ Stated plainly, in rough order of significance.
 
 3. **No natural-uranium depletion reference.** The 18.5 MWd/kgHM figure is
    compared against a literature value rather than against the same model. This
-   is the single largest gap in the study and the easiest to close — one run of
+   is the single largest gap in the study and the easiest to close, with one run of
    the existing script with the fuel switched.
 
 4. **Bundle-averaged depletion.** All 37 elements share one fuel material, so
@@ -535,27 +530,20 @@ In priority order.
 
 ## 8. Conclusions
 
-1. A 37-element PHWR bundle model was built in OpenMC and verified against four
-   independent knowns: natural-uranium lattice k∞ (1.131), xenon equilibrium
-   worth (27.9 mk), CANDU bundle heavy-metal mass (19.06 kg), and the sign and
-   magnitude of natural-uranium coolant void reactivity (+14.78 mk).
+A 37-element PHWR bundle model was built in OpenMC and verified against four
+independent known variables: natural-uranium lattice k∞ (1.131), xenon equilibrium
+worth (27.9 mk), CANDU bundle heavy-metal mass (19.06 kg), and the sign and
+magnitude of natural-uranium coolant void reactivity (+14.78 mk). 
 
-2. Substituting a 90/10 thoria-urania blend at 19.75% enrichment for natural
-   uranium raised fresh lattice reactivity by only 30.6 mk despite a 2.8×
-   increase in fissile loading, quantifying the Th-232 absorption penalty and
-   explaining the HALEU requirement.
+Substituting a 90/10 thoria-urania blend at 19.75% enrichment for natural
+uranium raised fresh lattice reactivity by only 30.6 mk despite a 2.8×
+increase in fissile loading, quantifying the Th-232 absorption penalty and
+explaining the HALEU requirement. Coolant void reactivity fell from +14.78 ± 0.37 mk to +10.90 ± 0.35 mk, a 26 ± 3% reduction significant at 7.6σ. The coefficient remains positive. Depletion to 59.9 MWd/kgHM gave a k∞ = 1 crossing near 18.5 MWd/kgHM, approximately 2.5× the natural-uranium CANDU value, with the reactivity loss rate flattening from −7.0 to −1.8 mk per MWd/kgHM as U-233 bred in.
 
-3. Coolant void reactivity fell from +14.78 ± 0.37 mk to +10.90 ± 0.35 mk, a
-   26 ± 3% reduction significant at 7.6σ. The coefficient remains positive.
-
-4. Depletion to 59.9 MWd/kgHM gave a k∞ = 1 crossing near 18.5 MWd/kgHM,
-   approximately 2.5× the natural-uranium CANDU value, with the reactivity loss
-   rate flattening from −7.0 to −1.8 mk per MWd/kgHM as U-233 bred in.
-
-5. The burnup gain is approximately proportional to the fissile investment, so
-   it should not be attributed to thorium alone. The reduced void coefficient
-   and the flattening reactivity slope are the results more properly
-   attributable to the thorium cycle itself.
+The burnup gain is approximately proportional to the fissile investment, so
+it should not be attributed to thorium alone. The reduced void coefficient
+and the flattening reactivity slope are the results more properly
+attributable to the thorium cycle itself.
 
 ---
 
@@ -602,7 +590,7 @@ reactivity of the right magnitude. The geometry also passed OpenMC's overlap
 checker and visual inspection.
 
 **"Isn't the higher burnup just from the enrichment?"**
-Largely, yes — and that is stated in Section 5.1. Fissile loading rose 2.8×
+Largely, yes, and that is stated in Section 5.1. Fissile loading rose 2.8×
 and burnup rose about 2.5×, so the gain is roughly proportional. A
 matched-enrichment LEU comparison is needed to isolate thorium's contribution
 and has not been run. Thorium's distinctive effects visible here are the
