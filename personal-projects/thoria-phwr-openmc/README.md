@@ -17,7 +17,7 @@ water reactor's coolant void coefficient, and does it reach higher burnup?
 | k∞ = 1 burnup | ~7.5 MWd/kgHM (literature) | 18.5 MWd/kgHM |
 
 **Coolant void reactivity fell by 26 ± 3%, significant at 7.6σ.** The
-coefficient remains positive — reduced, not eliminated.
+coefficient remains positive, reduced and not eliminated.
 
 **Fresh reactivity rose only 30.6 mk despite a 2.8× increase in fissile
 loading.** That gap is the Th-232 absorption penalty made quantitative, and it
