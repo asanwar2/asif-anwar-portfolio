@@ -3,7 +3,7 @@
 **An open-source Monte Carlo study using OpenMC**
 
 Asif Anwar — M.S. Nuclear Engineering, Purdue University
-August 2026
+
 
 ---
 
